@@ -30,13 +30,13 @@ This game was created as a personal learning project to practice animation, canv
 
 
 🖼️ Gameplay Preview
-<p align="center"> <img src="gameplay.gif" width="800" alt="Endless Runner Gameplay Preview"/> </p>
+<p align="center"> <img src="vid.gif" width="800" alt="Endless Runner Gameplay Preview"/> </p>
+
+
 🧑‍🏫 Credits
 📘 Tutorial Used: JavaScript Game Development Course for Beginners by Chris Courses
 
 🖼️ Sprites and explosion effects from OpenGameArt.org
-
-🎵 Sound effects from FreeSound.org
 
 🧠 Modified & extended as a personal learning and development project
 
