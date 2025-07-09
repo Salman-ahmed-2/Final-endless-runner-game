@@ -1,0 +1,70 @@
+</head><!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            overflow: hidden;
+        }
+        #canvas{
+            top: 50%;
+            left: 50%;
+            position: absolute;
+            transform: translate(-50%,-50%);
+            max-width: 100%;
+            max-height: 100%;
+            
+
+            /* background: linear-gradient(130deg,yellow,blue,red); */
+            /* background-color:skyblue; */
+
+        
+       
+        }
+        #fly,#plant,#spider_big{
+            display: none;
+        }
+        
+     
+        #l1,#l2,#l4,#l3,#l5,#fire,#play,#collision,#lives{
+            display: none;
+        }
+    </style>
+
+<body>
+    <canvas id="canvas"></canvas>
+    
+    <img id="play" src="finalplay.png">
+    <img id="l1" src="bg/layer-1.png">
+    <img id="l2" src="bg/layer-2.png">
+    <img id="l3" src="bg/layer-3.png">
+    <img id="l4" src="bg/layer-4.png">
+    <img id="l5" src="bg/layer-5.png">
+
+    <img id="fly" src="enemy/flyenemy.png">
+    <img id="plant" src="enemy/penemy.png">
+    <img id="spider_big" src="enemy/climbenemy.png">
+
+    <img id="fire" src="particle/fire.png">
+    <img id="collision" src="particle/boom.png">
+    <img id="lives" src="particle/heart.png">
+
+    <script type="module" src="./js_files/script8.js"></script>
+</body>
+</html>
