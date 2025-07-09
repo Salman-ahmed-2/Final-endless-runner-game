@@ -34,7 +34,7 @@ This game was created as a personal learning project to practice animation, canv
 
 
 🧑‍🏫 Credits
-📘 Tutorial Used: JavaScript Game Development Course for Beginners by Chris Courses
+📘 Tutorial Used: JavaScript Game Development Course for Beginners by Frank's Laboratory
 
 🖼️ Sprites and explosion effects from OpenGameArt.org
 
